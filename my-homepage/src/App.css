@@ -1,0 +1,45 @@
+.app {
+  background-color: deepskyblue;
+  height: 100vh;
+}
+
+:root {
+  --firstColor: red;
+  --secondColor: #f7cf87; 
+}
+
+h1,
+h2 {
+  padding: 0px;
+  margin: auto;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro {
+  color: var(--secondColor);
+}
+
+.name {
+  color: var(--firstColor);
+}
+
+.surname {
+  color: var(--firstColor);
+  padding-left: 0.2em;
+}
+
+.description {
+  font-size: medium;
+  color: var(--secondColor);
+}
