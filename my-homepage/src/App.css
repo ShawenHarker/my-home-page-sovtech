@@ -1,6 +1,81 @@
+/* Importing Font Families */
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap'); /*font-family: 'Island Moments', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); /*font-family: 'Lato', sans-serif;*/
+
+/*CSS Root Selectors*/
+:root {
+    --PriFont: 'Lato', sans-serif;
+    --SecFont: 'Island Moments', cursive;
+    --PriColor: #2596be;
+    --SecColor: #96be25;
+}
+
+/*General Styling*/
 * {
     padding: 5px;
     margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+p,
+li {
+    font-family: var(--PriFont);
+    line-height: 20px;
+}
+
+/*Header*/
+.head {
+    justify-content: center;
+    align-items: center;
+    line-height: 35px;
+}
+
+.intro {
+    font-size: 20px;
+}
+
+.intro,
+.description {
+    font-family: var(--PriFont);
+    padding: 0px;
+    margin: 0px;
+}
+
+.name {
+    font-family: var(--SecFont);
+    font-size: 4rem;
+    color: var(--PriColor);
+    padding: 0px;
+    margin: 0px;
+}
+
+.description {
+    font-size: 16px;
+}
+
+/*About Me*/
+.about-header {
+    flex-direction: row;
+    color: var(--PriColor);
+    font-family: var(--SecFont);
+    font-size: large;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.smile-icon {
+    font-size: 30px;
+}
+
+.bold {
+    color: var(--SecColor);
 }
 
 .image-1 {

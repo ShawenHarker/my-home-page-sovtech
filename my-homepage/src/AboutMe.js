@@ -4,14 +4,14 @@ import {FaRegSmileBeam} from "react-icons/fa";
 function AboutMe() {
   return (
     <div>
-      <div className="about-header">
+      <div className="container about-header">
         <h2 className="about">A Little About Myself</h2>
         <h2 className="smile-icon">
           <FaRegSmileBeam />
         </h2>
       </div>
       <article>
-        <p className="paragraph">
+        <p>
           Where do I start, I am a bubbly person who loves to strike up a
           conversation and learn from people all around me. I have been in the
           printing industry and worked in all departments of the business. In my
@@ -25,7 +25,7 @@ function AboutMe() {
           lover of learning and this is what attracted me most to train to
           become a developer as you are always challenged to think out of the
           box and learn new things daily. I was also recognized as the
-          <b>strongest communicator and most curious</b> trainee in my class.
+          <b className="bold">strongest communicator and most curious</b> trainee in my class.
         </p>
         <img
           src="/images/IMG-20191214-WA0011.jpeg"
