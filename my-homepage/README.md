@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+My notes!!
+
+My design is mobile first, allowing the user to view my page on their mobile device and PC.
+The reason for my design is to keep my page simple and not to distracting from the main reason about getting to know me as a developer.
+
+I have minimal animation, just enough to give it some life but also allow the reader to focus on what I am saying.
+
+I created my page to have as little reading done but answer all questions.
+
+Libraries and packages used includes:
+React-Icons

@@ -1,3 +1,4 @@
+import React from "react";
 import Header from "./Header";
 import AboutMe from "./AboutMe";
 import './App.css';
@@ -5,8 +6,8 @@ import './App.css';
 function App() {
   return (
     <div className="app">
-      <Header></Header>
-      <AboutMe></AboutMe>
+      <Header />
+      <AboutMe />
     </div>
   );
 }
