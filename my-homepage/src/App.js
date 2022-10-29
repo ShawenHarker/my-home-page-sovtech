@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import AboutMe from "./AboutMe";
 import Skills from "./Skills";
+import SovTechGrad from "./SovTechGrad";
 import './App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <AboutMe />
       <Skills />
+      <SovTechGrad />
     </div>
   );
 }
