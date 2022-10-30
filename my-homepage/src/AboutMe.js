@@ -4,9 +4,9 @@ import {FaRegSmileBeam} from "react-icons/fa";
 function AboutMe() {
   return (
     <div>
-      <div className="container about-header">
-        <h2 className="about">A Little About Myself</h2>
-        <h2 className="smile-icon">
+      <div className="container heading about-heading">
+        <h2>A Little About Myself</h2>
+        <h2 className="icon">
           <FaRegSmileBeam />
         </h2>
       </div>

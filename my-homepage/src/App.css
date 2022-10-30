@@ -1,84 +1,113 @@
 /* Importing Font Families */
-@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap'); /*font-family: 'Island Moments', cursive; */
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); /*font-family: 'Lato', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap"); /*font-family: 'Island Moments', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap"); /*font-family: 'Lato', sans-serif;*/
 
 /*CSS Root Selectors*/
 :root {
-    --PriFont: 'Lato', sans-serif;
-    --SecFont: 'Island Moments', cursive;
-    --PriColor: #2596be;
-    --SecColor: #96be25;
+  --PriFont: "Lato", sans-serif;
+  --SecFont: "Island Moments", cursive;
+  --PriColor: #2596be;
+  --SecColor: #96be25;
 }
 
 /*General Styling*/
 * {
-    padding: 5px;
-    margin: 0px;
-    box-sizing: border-box;
+  padding: 0px 5px;
+  margin: 0px auto;
+  box-sizing: border-box;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    padding: 0px;
-    margin: 0px;
+  display: flex;
+  flex-direction: column;
 }
 
 p,
 li {
-    font-family: var(--PriFont);
-    line-height: 20px;
+  font-family: var(--PriFont);
+  line-height: 20px;
+}
+
+h1,
+h2 {
+  margin-block: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.heading {
+  color: var(--PriColor);
+  font-family: var(--SecFont);
+  font-weight: 900;
 }
 
 /*Header*/
 .head {
-    justify-content: center;
-    align-items: center;
-    line-height: 35px;
+  justify-content: center;
+  align-items: center;
+  line-height: 35px;
 }
 
 .intro {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .intro,
 .description {
-    font-family: var(--PriFont);
-    padding: 0px;
-    margin: 0px;
+  font-family: var(--PriFont);
+  padding: 0px;
+  margin: 0px;
 }
 
 .name {
-    font-family: var(--SecFont);
-    font-size: 4rem;
-    color: var(--PriColor);
-    padding: 0px;
-    margin: 0px;
+  font-family: var(--SecFont);
+  font-size: 4rem;
+  color: var(--PriColor);
 }
 
 .description {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 /*About Me*/
-.about-header {
-    flex-direction: row;
-    color: var(--PriColor);
-    font-family: var(--SecFont);
-    font-size: large;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+.about-heading {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
 }
 
-.smile-icon {
-    font-size: 30px;
+.icon {
+  font-size: 35px;
+  padding: 0px 10px;
 }
 
 .bold {
-    color: var(--SecColor);
+  color: var(--SecColor);
 }
 
 .image-1 {
-    width: 100%;
-    height: 25em;
+  width: 100%;
+  height: 25em;
+}
+
+/* Skills*/
+.skills {
+    font-size: 1.5rem;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 1em;
+}
+
+.sub-heading {
+    color: var(--SecColor);
+    font-family: var(--SecFont);
+    font-size: 1.75rem;
+    padding-top: 10px ;
+}
+
+.skills-icon {
+    font-size: 1.5rem;
+    padding: 0px 2px;
+    margin: 0px;
 }

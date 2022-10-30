@@ -1,68 +1,75 @@
 import React from "react";
+import { VscTools } from "react-icons/vsc"
 import { AiOutlineHtml5 } from "react-icons/ai";
-import { TbBrandCss3 } from "react-icons/tb";
+import { TbBrandCss3, TbBrandBootstrap } from "react-icons/tb";
 import { GiWireframeGlobe } from "react-icons/gi";
 import { CiMobile4 } from "react-icons/ci";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
-import { SiExpress } from "react-icons/si";
-import { TbBrandBootstrap } from "react-icons/tb";
-import { SiMaterialui } from "react-icons/si";
+import { SiExpress, SiMaterialui } from "react-icons/si";
 import { DiPostgresql } from "react-icons/di";
 import { RiUbuntuLine } from "react-icons/ri";
 
 const Skills = () => {
   return (
     <div>
-      <h2>My Skills</h2>
+      <div className="container heading skills">
+        <h2>My Skills</h2>
+        <h2 className="icon">
+          <VscTools />
+        </h2>
+      </div>
       <div>
-        <h3>Technical Skills</h3>
+        <h3 className="sub-heading">Technical Skills</h3>
         <uL>
           <li>
-            <AiOutlineHtml5 />
-            HTML5 & <TbBrandCss3 />
+            <AiOutlineHtml5 className="skills-icon" />
+            HTML5
+          </li>
+          <li>
+            <TbBrandCss3 className="skills-icon" />
             CSS3
           </li>
           <li>
-            <GiWireframeGlobe />
+            <GiWireframeGlobe className="skills-icon" />
             Wireframing
           </li>
           <li>
-            <CiMobile4 />
+            <CiMobile4 className="skills-icon" />
             Mobile first
           </li>
           <li>
-            <IoLogoJavascript />
+            <IoLogoJavascript className="skills-icon" />
             JavaScript
           </li>
           <li>
-            <FaReact />
+            <FaReact className="skills-icon" />
             React.js
           </li>
           <li>
-            <SiExpress />
+            <SiExpress className="skills-icon" />
             Node.js - Express
           </li>
           <li>
-            <TbBrandBootstrap />
+            <TbBrandBootstrap className="skills-icon" />
             Bootstrap
           </li>
           <li>
-            <SiMaterialui />
+            <SiMaterialui className="skills-icon" />
             Material UI
           </li>
           <li>
-            <DiPostgresql />
+            <DiPostgresql className="skills-icon" />
             Postgres SQL
           </li>
           <li>
-            <RiUbuntuLine />
+            <RiUbuntuLine className="skills-icon" />
             Linux - Ubuntu
           </li>
         </uL>
       </div>
       <div>
-        <h3>Soft Skills</h3>
+        <h3 className="sub-heading">Soft Skills</h3>
         <uL>
           <li>Communication</li>
           <li>Teamwork</li>
