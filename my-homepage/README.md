@@ -78,5 +78,14 @@ I have minimal animation, just enough to give it some life but also allow the re
 
 I created my page to have as little reading done but answer all questions.
 
-Libraries and packages used includes:
+Packages used includes:
 React-Icons
+Google Font
+
+Three media queries was added for mobile, tablet, PC screen and wide angle screens.
+
+What I would like to do in the future.
+
+- Add a hobbies and bucket list section in my about section.
+- Add in more animation.
+- Add projects I have worked on.

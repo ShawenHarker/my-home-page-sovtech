@@ -42,6 +42,12 @@ h2 {
   font-weight: 900;
 }
 
+.icon {
+  font-size: 35px;
+  padding: 0px 10px;
+  margin: 0px;
+}
+
 @keyframes transitionIn {
     from {
         opacity: 0;
@@ -90,16 +96,11 @@ h2 {
   font-size: 1.5rem;
 }
 
-.icon {
-  font-size: 35px;
-  padding: 0px 10px;
-}
-
 .bold {
   color: var(--SecColor);
 }
 
-.image-1 {
+.image {
   width: 100%;
   height: 25em;
   padding-top: 10px;
@@ -115,6 +116,25 @@ h2 {
     margin: 0px;
 }
 
+.skills-list {
+    align-items:flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.skills-div {
+    padding: 0px 10px;
+    margin: 0px;
+}
+
+.skills-ul {
+    flex: 1;
+    margin: 0px;
+    padding: 0px 15px;
+}
+
 .sub-heading {
     color: var(--SecColor);
     font-family: var(--SecFont);
@@ -123,17 +143,19 @@ h2 {
     margin: 0px;
 }
 
-.skills-icon {
-    font-size: 1.5rem;
-    padding: 0px 2px;
-    margin: 0px;
+/*Why SovTech*/
+.SovTech-Why {
+    align-items: center;
+    justify-content: center;
 }
 
-/*Why SovTech*/
 .SovTech {
     flex-direction: row;
     font-size: 1.2rem;
-    padding: 1em 0px;
+}
+
+.SovTech-icon {
+    margin: 0px;
 }
 
 /*Footer*/
@@ -149,4 +171,48 @@ h2 {
 .linkedIn  {
     color: var(--PriColor);
     font-size: 3rem;
+}
+
+/*Media Queries*/
+@media all and (min-width: 720px) {
+    p{
+        max-width: 45rem;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .about-article {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .image {
+        max-width: 350px;
+        height: 18vh;
+        padding: 5px;
+        margin: 0px;
+    }
+
+    .skills-list {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    .image {
+        height: 28vh;
+    }
+}
+
+@media all and (min-width: 1300px) {
+    .name {
+        font-size: 5rem;
+        padding-top: 10px;
+    }
+    .image {
+        width: 250px;
+        height: 200px;
+    }
 }

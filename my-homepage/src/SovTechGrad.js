@@ -3,10 +3,12 @@ import { BsEmojiHeartEyes } from "react-icons/bs"
 
 const SovTechGrad = () => {
     return (
-      <article>
+      <article className="container SovTech-Why">
         <div className="container heading SovTech">
           <h2>Why I Want To Work For SovTech?</h2>
-          <h2 className="icon"><BsEmojiHeartEyes /></h2>
+          <span className="icon SovTech-icon">
+            <BsEmojiHeartEyes />
+          </span>
         </div>
         <p>
           I wan to join the SovTech team as I know that will I learn and grow as

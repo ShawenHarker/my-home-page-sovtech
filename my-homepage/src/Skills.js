@@ -22,69 +22,71 @@ const Skills = () => {
           <TbTools />
         </h2>
       </div>
-      <div>
-        <h3 className="sub-heading">Technical Skills</h3>
-        <uL>
-          <li>
-            <TbBrandHtml5 className="skills-icon" />
-            HTML5
-          </li>
-          <li>
-            <TbBrandCss3 className="skills-icon" />
-            CSS3
-          </li>
-          <li>
-            <GiWireframeGlobe className="skills-icon" />
-            Wireframing
-          </li>
-          <li>
-            <TbDeviceMobile className="skills-icon" />
-            Mobile first
-          </li>
-          <li>
-            <TbBrandJavascript className="skills-icon" />
-            JavaScript
-          </li>
-          <li>
-            <TbBrandReactNative className="skills-icon" />
-            React.js
-          </li>
-          <li>
-            <SiExpress className="skills-icon" />
-            Node.js - Express
-          </li>
-          <li>
-            <TbBrandBootstrap className="skills-icon" />
-            Bootstrap
-          </li>
-          <li>
-            <SiMaterialui className="skills-icon" />
-            Material UI
-          </li>
-          <li>
-            <DiPostgresql className="skills-icon" />
-            Postgres SQL
-          </li>
-          <li>
-            <TbBrandUbuntu className="skills-icon" />
-            Linux - Ubuntu
-          </li>
-        </uL>
-      </div>
-      <div>
-        <h3 className="sub-heading">Soft Skills</h3>
-        <uL>
-          <li>Communication</li>
-          <li>Teamwork</li>
-          <li>Agile methodology</li>
-          <li>Problem-solving</li>
-          <li>Attention to detail</li>
-          <li>Quality Assessor</li>
-          <li>Time Management</li>
-          <li>Leadership</li>
-          <li>Fast Learner</li>
-          <li>Working under pressure</li>
-        </uL>
+      <div className="container skills-list">
+        <div className="container skills-div">
+          <h3 className="sub-heading">Technical Skills</h3>
+          <uL className="skills-ul">
+            <li>
+              <TbBrandHtml5 className="skills-icon" />
+              HTML5
+            </li>
+            <li>
+              <TbBrandCss3 className="skills-icon" />
+              CSS3
+            </li>
+            <li>
+              <GiWireframeGlobe className="skills-icon" />
+              Wireframing
+            </li>
+            <li>
+              <TbDeviceMobile className="skills-icon" />
+              Mobile first
+            </li>
+            <li>
+              <TbBrandJavascript className="skills-icon" />
+              JavaScript
+            </li>
+            <li>
+              <TbBrandReactNative className="skills-icon" />
+              React.js
+            </li>
+            <li>
+              <SiExpress className="skills-icon" />
+              Node.js - Express
+            </li>
+            <li>
+              <TbBrandBootstrap className="skills-icon" />
+              Bootstrap
+            </li>
+            <li>
+              <SiMaterialui className="skills-icon" />
+              Material UI
+            </li>
+            <li>
+              <DiPostgresql className="skills-icon" />
+              Postgres SQL
+            </li>
+            <li>
+              <TbBrandUbuntu className="skills-icon" />
+              Linux - Ubuntu
+            </li>
+          </uL>
+        </div>
+        <div className="container skills-div">
+          <h3 className="sub-heading">Soft Skills</h3>
+          <uL className="skills-ul">
+            <li>Communication</li>
+            <li>Teamwork</li>
+            <li>Agile methodology</li>
+            <li>Problem-solving</li>
+            <li>Attention to detail</li>
+            <li>Quality Assessor</li>
+            <li>Time Management</li>
+            <li>Leadership</li>
+            <li>Fast Learner</li>
+            <li>Working under pressure</li>
+          </uL>
+        </div>
       </div>
     </div>
   );

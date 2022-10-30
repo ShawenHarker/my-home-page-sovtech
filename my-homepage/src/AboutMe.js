@@ -10,7 +10,7 @@ function AboutMe() {
           <FaRegSmileBeam />
         </h2>
       </div>
-      <article>
+      <article className="container about-article">
         <p>
           Where do I start, I am a bubbly person who loves to strike up a
           conversation and learn from people all around me. I have been in the
@@ -25,11 +25,12 @@ function AboutMe() {
           lover of learning and this is what attracted me most to train to
           become a developer as you are always challenged to think out of the
           box and learn new things daily. I was also recognized as the
-          <b className="bold">strongest communicator and most curious</b> trainee in my class.
+          <b className="bold">strongest communicator and most curious</b>{" "}
+          trainee in my class.
         </p>
         <img
           src="/images/IMG-20191214-WA0011.jpeg"
-          className="image-1"
+          className="image"
           alt="Myself"
         />
       </article>
