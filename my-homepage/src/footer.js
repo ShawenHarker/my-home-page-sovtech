@@ -1,15 +1,15 @@
 import React from "react";
-import { FaGithubSquare } from "react-icons/fa";
-import { RiLinkedinBoxFill } from "react-icons/ri";
+import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="container links">
       <a
         href="https://www.github.com/shawenharker"
         rel="noopener noreferrer"
         aria-label="Github"
         target="_blank"
+        className="git"
       >
         <FaGithubSquare />
       </a>
@@ -18,8 +18,9 @@ const Footer = () => {
         rel="noopener noreferrer"
         aria-label="LinkedIn"
         target="_blank"
+        className="linkedIn"
       >
-        <RiLinkedinBoxFill />
+        <FaLinkedin />
       </a>
     </div>
   );

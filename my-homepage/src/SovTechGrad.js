@@ -1,9 +1,13 @@
 import React from "react";
+import { BsEmojiHeartEyes } from "react-icons/bs"
 
 const SovTechGrad = () => {
     return (
-      <div>
-        <h2>Why I Want To Work For SovTech?</h2>
+      <article>
+        <div className="container heading SovTech">
+          <h2>Why I Want To Work For SovTech?</h2>
+          <h2 className="icon"><BsEmojiHeartEyes /></h2>
+        </div>
         <p>
           I wan to join the SovTech team as I know that will I learn and grow as
           a developer. I want to gain experience in the field and become a
@@ -13,7 +17,7 @@ const SovTechGrad = () => {
           looking forward to being challenged so that I can become an
           outstanding graduate of SovTech.
         </p>
-      </div>
+      </article>
     );
 }
 
