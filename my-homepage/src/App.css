@@ -26,7 +26,7 @@ p,
 li {
   font-family: var(--PriFont);
   line-height: 20px;
-  animation: transitionIn 2s;
+  animation: transitionIn 5s;
 }
 
 h1,
