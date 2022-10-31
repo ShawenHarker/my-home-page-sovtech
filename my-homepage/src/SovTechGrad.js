@@ -11,9 +11,9 @@ const SovTechGrad = () => {
           </span>
         </div>
         <p>
-          I wan to join the SovTech team as I know that will I learn and grow as
+          I would love to join the SovTech team as I know I will be learning and growing as
           a developer. I want to gain experience in the field and become a
-          valuable member of the team. My aim grow to a point where I can give
+          valuable member of the team. My aim is to grow to a point where I can give
           back and contribute to real-life projects that will make a difference
           within the business. SovTech will challenge me as a developer and I am
           looking forward to being challenged so that I can become an

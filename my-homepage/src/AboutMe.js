@@ -10,7 +10,12 @@ function AboutMe() {
           <FaRegSmileBeam />
         </h2>
       </div>
-      <article className="container about-article">
+      <article className="about-article">
+        <img
+          src="/images/IMG-20191214-WA0011.jpeg"
+          className="image"
+          alt="Myself"
+        />
         <p>
           Where do I start, I am a bubbly person who loves to strike up a
           conversation and learn from people all around me. I have been in the
@@ -28,11 +33,6 @@ function AboutMe() {
           <b className="bold">strongest communicator and most curious</b>{" "}
           trainee in my class.
         </p>
-        <img
-          src="/images/IMG-20191214-WA0011.jpeg"
-          className="image"
-          alt="Myself"
-        />
       </article>
     </div>
   );
