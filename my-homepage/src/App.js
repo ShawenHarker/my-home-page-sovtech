@@ -3,7 +3,7 @@ import Header from "./Header";
 import AboutMe from "./AboutMe";
 import Skills from "./Skills";
 import SovTechGrad from "./SovTechGrad";
-import Footer from "./Footer";
+import Links from "./Links";
 import './App.css';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <AboutMe />
       <Skills />
       <SovTechGrad />
-      <Footer />
+      <Links />
     </div>
   );
 }

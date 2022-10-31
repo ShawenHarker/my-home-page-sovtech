@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 
-const Footer = () => {
+const Links = () => {
   return (
     <div className="container links">
       <a
@@ -26,4 +26,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Links;
